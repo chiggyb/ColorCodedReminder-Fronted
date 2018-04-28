@@ -1,0 +1,90 @@
+<div class="container"><div id="bhai">
+    <h1>Please Fill Out The Below</h1> 
+</div>
+<div id="bhai">
+<form #starterForm="ngForm" (ngSubmit)="onSubmit()">
+   <h3>Info: </h3><input type="text" class="form-control"
+                       name="info" 
+                       #firstName="ngModel"
+                       [(ngModel)]="customer.info1"
+                       required />
+   <h3> Color:</h3>
+                       <input type="text" class="form-control"
+                       name="color" 
+                       #firstName="ngModel"
+                       [(ngModel)]="customer.color1"
+                       required />
+    <h3> Quantity:</h3>
+                       <input type="text" class="form-control"
+                       name="quant1" 
+                       #firstName="ngModel"
+                       [(ngModel)]="customer.quant1"
+                       required />
+    <h3>Time in 24 Hours Format:</h3>
+                       <input type="text" class="form-control"
+                       name="time1" 
+                       #firstName="ngModel"
+                       [(ngModel)]="customer.time1"
+                       required />
+    <h2>Second Set of Details</h2>
+    <h3>Info:</h3> <input type="text" class="form-control"
+                       name="info" 
+                       #firstName="ngModel"
+                       [(ngModel)]="customer.info2"
+                       required />
+    <h3>Color:</h3>
+                       <input type="text" class="form-control"
+                       name="color" 
+                       #firstName="ngModel"
+                       [(ngModel)]="customer.color2"
+                       required />
+    <h3>Quantity:</h3>
+                       <input type="text" class="form-control"
+                       name="quant1" 
+                       #firstName="ngModel"
+                       [(ngModel)]="customer.quant2"
+                       required />
+    <h3>Time in 24 Hours Format:</h3>
+                       <input type="text" class="form-control"
+                       name="time1" 
+                       #firstName="ngModel"
+                       [(ngModel)]="customer.time2"
+                       required />
+    <h2>Third Set of Details</h2>               
+    <h3>Info:</h3> <input type="text" class="form-control"
+                       name="info" 
+                       #firstName="ngModel"
+                       [(ngModel)]="customer.info3"
+                       required />
+    <h3>Color:</h3>
+                       <input type="text" class="form-control"
+                       name="color" 
+                       #firstName="ngModel"
+                       [(ngModel)]="customer.color3"
+                       required />
+    <h3>Quantity:</h3>
+                       <input type="text" class="form-control"
+                       name="quant1" 
+                       #firstName="ngModel"
+                       [(ngModel)]="customer.quant3"
+                       required />
+    <h3>Time in 24 Hours Format:</h3>
+                       <input type="text" class="form-control"
+                       name="time1" 
+                       #firstName="ngModel"
+                       [(ngModel)]="customer.time3"
+                       required />              
+    <!-- <button class="btn btn-default" [disabled]="!starterForm.valid">Submit</button> -->
+    <button class="button" [disabled]="!starterForm.valid"><span>Submit </span></button>
+    <br /><br />
+    {{ message }}
+
+    <!-- <br />
+    Valid: {{ firstName.valid}}
+    <br />
+    Pristine: {{ firstName.pristine }}
+    <br />
+    Touched: {{ firstName.touched }} -->
+</form>
+</div>
+</div>
