@@ -1,4 +1,3 @@
-import { ShowModelError } from './shared/showModelError.component';
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -9,7 +8,6 @@ import { AppRoutingModule } from './app-routing.module';
 // import { PhoneTextboxComponent } from './controlValueAccessor/phone-textbox.component';
 import { CamelToTitlePipe } from './shared/camel-to-title.pipe';
 import { HttpModule } from '@angular/http';
-import { ShowError } from './shared/showError.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, ReactiveFormsModule, AppRoutingModule,HttpModule ],
