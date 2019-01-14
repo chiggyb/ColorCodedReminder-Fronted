@@ -1,7 +1,6 @@
-# Angular/TypeScript Forms
+# Color Coded Website for the Project based on Angular/TypeScript Forms
 
-This code sample demonstrates how Angular template-driven forms and 
-reactive forms can be created and used.
+This code was built as a part of my Graduate Reserach Project and is based on the Angular Forms from Angular 5.
 
 ## Running the Application
 
