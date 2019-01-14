@@ -1,6 +1,7 @@
 # Color Coded Website for the Project based on Angular/TypeScript Forms
 
-This code was built as a part of my Graduate Reserach Project and is based on the Angular Forms from Angular 5.
+This code was built as a part of my Graduate Reserach Project and is based on the Angular Forms from Angular 5. Please find the website below:
+# [CC Reminder](https://colorcodedreminder.firebaseapp.com/startertemplateform) 
 
 ## Running the Application
 
